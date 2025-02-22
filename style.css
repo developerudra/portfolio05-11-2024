@@ -1,0 +1,83 @@
+body{ background-image: url(../img/bg.jpg);}
+
+#photo{
+    display:flex;
+    width: 50px;
+    height:100px;
+    float: left; 
+}
+
+
+#texto1{background-color: rgba(56, 88, 149, 0.478);
+width:50%;
+display:flex;
+align-items: center;
+justify-content: center;
+
+}
+
+#content1{
+    width:50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 0px 0px;
+    color:white;
+
+}
+
+#content{
+    display: flex;
+    justify-content: space-between;
+}
+
+#ygor, #luna, #zyon{
+    float: right;
+    justify-content: center;
+    width: 30px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#content-wrap1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    margin: 20px;
+    height:40%;
+
+}
+
+p{color: white;}
+
+
+
+#rodape {
+    float: left;
+         width: 900px;
+         height: 100px ;
+}
+
+#rodape .whats{
+   float: left;
+    width: 50px;
+    height: 50px;
+    margin: 0 0 0 0;
+    background-image: url("../img/whatsapp.png");
+    background-size: 60px;
+    background-repeat: no-repeat;
+}
+
+
+
+#rodape .linkedin{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin: 0 0 0 0;
+    background-image: url("../img/linkedin.png");
+    background-size: 50px;
+    background-repeat: no-repeat;
+}
